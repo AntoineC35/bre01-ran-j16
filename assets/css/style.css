@@ -99,6 +99,8 @@ h2 {
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .projet {
     width: 28%;
@@ -253,6 +255,10 @@ h5 {
     font-size: 1.1rem;
     font-weight: 500;
     margin-top: 1%;
+}
+
+.unroll:hover {
+    cursor: pointer;
 }
 
 #loiH3 {
