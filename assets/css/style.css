@@ -1,3 +1,7 @@
+html {
+    font-size: 10px;
+}
+
 header {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -8,10 +12,17 @@ header {
     background: linear-gradient(to right, #2E6F95, #455E89, #5C4D7D, #723C70, #892B64);
     color: white;
     align-items: center;
+    border-bottom : 1px solid white;
 }
 
-header:a {
+header a {
     font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    font-size: 1.5rem;
 }
 
 main {
@@ -34,15 +45,12 @@ footer {
     background-size: cover;
 }
 
-.link {
-}
-
 .block1 {
     color: white;
     font-family: 'Cabin';
     display: flex;
     justify-content: space-around;
-    height: 60vh;
+    height: 50vh;
 }
 
 .blockName {
@@ -53,20 +61,118 @@ footer {
 }
 
 .bigIcon {
-    height : 60vh;
+    height : 50vh;
     width: 50vh;
     background-image: url("../img/webdev.svg");
-    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .name {
     font-family: 'Cabin', sans-serif;
     font-size: 6rem;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .subtext {
     font-family: "Cabin";
     font-size : 3rem;
     font-weight: 700;
+    margin-top: 5px;
+}
+
+h2 {
+    color: white ;
+    font-family: 'Cabin';
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 11%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+.projetBox {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.projet {
+    width: 28%;
+    background-color: #b7094c;
+    padding: 1%;
+    
+}
+
+.projet h3 {
+    font-family: "Cabin";
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.projet h4 {
+    font-family: "Cabin";
+    font-size: 1.3rem;
+}
+.projet p {
+    font-family: "Montserrat";
+}
+
+.projet a {
+    font-family: "Montserrat";
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+}
+
+footer {
+    font-size: 14px;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Montserrat";
+    color: #060b0e;
+}
+
+.footFlex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.col {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gauche {
+    color: #a01a58;
+}
+
+#milieu {
+    color: #723c70;
+}
+
+#droite {
+    color: #455e89;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.col-1 {
+    width: 15%;
+    height: 100%;
+}
+
+.col-2 {
+    width 80%;
+    height: 100%;
 }
