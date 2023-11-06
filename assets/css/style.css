@@ -92,6 +92,7 @@ h2 {
     margin-top: 0%;
     margin-bottom: 3%;
 }
+
 .projetBox {
     color: white;
     display: flex;
@@ -163,16 +164,98 @@ h5 {
 
 .grid {
     display: flex;
-    justify-content: space-between;
-    height: 90vh;
+    border-bottom: 1px solid black;
+    
 }
 
 .col-1 {
+    font-family: "Cabin";
     width: 15%;
-    height: 100%;
+    height: 110rem;
+    background-color: #b8094c;
+}
+.col-1 h6 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+.col-1 p {
+    text-align: center;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .col-2 {
-    width 80%;
+    width: 80%;
     height: 100%;
+    margin-left: 1%;
+    
+}
+
+.col-2 h2 {
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.face {
+    width: 100%;
+    height: 30%;
+    background-image: url("../img/developer.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+.blockCV {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#education {
+    background-color:#723c6f;
+}
+
+#eduH3 {
+    color: #723c6f;
+    font-size: 2rem;
+}
+
+#experience {
+    background-color: #a11958;
+}
+
+#expeH3 {
+    color: #a11958;
+    font-size: 2rem;
+}
+
+#loisirs {
+    background-color: #455e89;
+}
+
+.blockCV h4 {
+    font-family: "Cabin";
+    margin-left: 1%;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.blockCV p {
+    font-family: "Cabin";
+    margin-left: 1%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+#loiH3 {
+    color: #455e89;
+    font-size: 2rem;
 }
